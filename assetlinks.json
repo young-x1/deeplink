@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.wanmei.pwrdsdk.demo",
+    "sha256_cert_fingerprints":
+    ["9C:52:58:36:67:22:5B:34:BB:1C:07:73:F1:57:6A:99:BC:9B:70:5B:57:58:B6:EE:F7:45:8E:C0:C5:E8:47:0C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://www.recipe-app.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.wanmei.pwrdsdk.demo",
+    "sha256_cert_fingerprints":
+    ["9C:52:58:36:67:22:5B:34:BB:1C:07:73:F1:57:6A:99:BC:9B:70:5B:57:58:B6:EE:F7:45:8E:C0:C5:E8:47:0C"]
+  }
+}]
